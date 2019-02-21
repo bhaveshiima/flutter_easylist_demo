@@ -12,6 +12,10 @@ class MyApp extends StatelessWidget{
          appBar: AppBar(
            title: Text('Flutter: Easy List'),
          ),
+         body: Card(child: Column(children: <Widget>[
+           Image.asset('assets/iim.jpg'),
+           Text('IIM Ahmedabad')
+         ],),),
        ),
      );
   }
